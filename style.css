@@ -22,7 +22,11 @@ body {
 }
 
 /* MEDIA QUERY (medium) */
-@media screen {}
+@media screen and (min-width: 941px) {
+  body {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 /* MEDIA QUERY (large) */
 
