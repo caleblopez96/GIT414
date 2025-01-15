@@ -1,3 +1,6 @@
+/* IMPORTED FONTS */
+
+/* CSS RESET */
 *,
 *::before,
 *::after {
@@ -5,3 +8,22 @@
   margin: 0;
   padding: 0;
 }
+
+/* ROOT VARIABLES */
+:root {
+  --dough: #D9C4A3;
+  --chocolate-chip: #704214;
+  --crust: #c27d45;
+}
+
+/* GLOBAL STYLES */
+body {
+  display: grid;
+}
+
+/* MEDIA QUERY (medium) */
+@media screen {}
+
+/* MEDIA QUERY (large) */
+
+/* MEDIA QUERY (xl) */
