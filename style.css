@@ -156,5 +156,15 @@ body {
 }
 
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 1200px) {
+  body {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1250px) {
+  body {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
